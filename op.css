@@ -1,0 +1,117 @@
+.day_link_collector{
+    width: 640px;
+    height: 0;
+    border: 5px solid rgb(189, 195, 199);
+    position: absolute;
+    margin-left: 50%;
+    right: 640px;
+}
+.day_link{
+    display: block;
+    width: 124px;
+    height: 60px;
+    border: 2px solid rgb(189, 195, 199);
+    position: relative;
+    float: left;
+    margin: 2px;
+    background-color: rgb(52, 73, 94); 
+}
+.test_question_container{
+    width: 650px;
+    height: 500px !important;
+    background-color: rgb(44, 62, 80);
+    border: 5px solid rgb(189, 195, 199);
+    position: absolute;
+    margin-left: 50%;
+    right: 650px;
+}
+.test_question_words {
+    width: 400px;
+    height: 100px;
+    margin-left: 110px;
+    float: left;
+    margin-top: 95px;
+    text-align: center;
+    font-size: 40pt;
+    color: rgb(236, 240, 241);
+    margin-bottom: 30px;
+}
+.test_question_button {
+    width: 100px;
+    height: 4
+    0px;
+    margin-left: auto;
+    float: left;
+    margin-left: 250px;
+    margin-top: 30px;
+    background-color: rgb(52, 73, 94);
+    opacity: 0.8;
+    color : rgb(236, 240, 241);
+}
+.test_question_answear{
+    width: 275px;
+    color: rgb(236, 240, 241);
+    height: 50px;
+    margin-left: 169px;
+    float: left;
+    margin-top: 0px;
+    text-align: center;
+    background-color: rgb(52, 73, 94);
+    font-size: 30pt;
+    border: 3px solid rgb(189, 195, 199);
+}
+p{
+    text-align: center;
+    padding-top: 7px;  
+    color: rgb(236, 240, 241);
+}
+#true{
+    width: 270px;
+    display: block;
+    float: left;
+    position: relative;
+}
+#false{
+    width: 270px;
+    height: 470px;
+    display: block;
+    float: left;
+    position: relative;
+}
+#true_title{
+    color: rgb(46, 204, 113);
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#false_title{
+    color: rgb(231, 76, 60);
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 20px;
+}
+li{
+    display: block;
+}
+.false{
+    color:rgb(192, 57, 43);
+    margin-left: 50px;
+    font-size: 20pt;
+}
+.true{
+    color: rgb(39, 174, 96);
+    margin-left: 50px;
+    font-size: 20pt;
+}
+#retry{
+    width: 315px;
+    height: 100px;
+    color: blue;
+    font-size: 28pt;
+}
+#eretry{
+    width: 315px;
+    height: 100px;
+    color: blue;
+    font-size: 28pt;
+}
